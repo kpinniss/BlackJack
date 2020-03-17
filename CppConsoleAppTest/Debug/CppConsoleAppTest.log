@@ -1,0 +1,5 @@
+﻿  CppConsoleAppTest.cpp
+c:\source\coderefrences\cpp\cppconsoleapptest\cppconsoleapptest\cppconsoleapptest.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  Deck.cpp
+  Generating Code...
+  CppConsoleAppTest.vcxproj -> C:\source\CodeRefrences\cpp\CppConsoleAppTest\Debug\CppConsoleAppTest.exe
