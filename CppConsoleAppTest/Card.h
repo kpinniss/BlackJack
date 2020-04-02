@@ -55,5 +55,10 @@ public:
 		}
 	}
 
+	void displayCard() 
+	{
+		_u.print(_u.toStr(getVal()) + " Of " + getSuit());
+	}
+
 };
 

@@ -1,5 +1,14 @@
 ﻿  CppConsoleAppTest.cpp
-c:\source\coderefrences\cpp\cppconsoleapptest\cppconsoleapptest\cppconsoleapptest.cpp(23): warning C4018: '<': signed/unsigned mismatch
-  Deck.cpp
+c:\src\blackjack\cppconsoleapptest\deck.h(35): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\src\blackjack\cppconsoleapptest\deck.h(43): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\deck.h(57): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\hand.h(19): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\hand.h(30): warning C4018: '<': signed/unsigned mismatch
+  GameSource.cpp
+c:\src\blackjack\cppconsoleapptest\deck.h(35): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\src\blackjack\cppconsoleapptest\deck.h(43): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\deck.h(57): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\hand.h(19): warning C4018: '<': signed/unsigned mismatch
+c:\src\blackjack\cppconsoleapptest\hand.h(30): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-  CppConsoleAppTest.vcxproj -> C:\source\CodeRefrences\cpp\CppConsoleAppTest\Debug\CppConsoleAppTest.exe
+  CppConsoleAppTest.vcxproj -> C:\src\BlackJack\Debug\CppConsoleAppTest.exe

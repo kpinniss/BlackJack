@@ -10,9 +10,12 @@ class Hand
 public:
 	Hand();
 	~Hand();
+
+	vector<Card> Cards;
+
 	int getHandValue()
 	{
-		int total;
+		int total = 0;
 		for (int i = 0; i < Cards.size(); i++)
 		{
 			total += Cards[i].getVal();
@@ -23,14 +26,17 @@ public:
 	void displayHand()
 	{
 		UtilSource u;
-		u.print("Your Hand: ");
+		u.print("Hand: ");
 		for (int i = 0; i < Cards.size(); i++)
 		{
-			u.print(Cards[i].getFaceValue);
+			Cards[i].displayCard();
 		}
 	}
 
-	vector<Card> Cards;
+	void addCard(Card card)
+	{
+		Cards.push_back(card);
+	}
 
 };
 
