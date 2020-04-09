@@ -57,7 +57,7 @@ public:
 
 	void displayCard() 
 	{
-		_u.print(_u.toStr(getVal()) + " Of " + getSuit());
+		_u.print(getFaceValue() + " Of " + getSuit());
 	}
 
 };

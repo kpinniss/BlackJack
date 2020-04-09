@@ -75,7 +75,7 @@ int main() {
 	_gu.Draw(dealer.Hand, theDeck);
 
 	if (_gu.bjack(playerOne.Hand)) {
-		_u.print("Black Jack! You WIN!");
+		_gu.Win(playerOne);
 		gameOver = true;
 		return 0;
 	}
@@ -102,14 +102,13 @@ int main() {
 			}
 			_gu.clearInput(input);
 		}
-		/*if(input == "s") {
-			_u.print("You stayed your hand at :" + _u.toStr(playerHand.getHandValue()));
+		_u.print("Dealers Draw..");
+		_gu.Draw(dealer.Hand, theDeck);
+		gameOver = _gu.playerTurn(dealer);
+		if (!gameOver)
+		{
+			_gu.showStats(dealer);
 		}
-		if (dealersHand.getHandValue() <= 16) {
-			_u.print("Dealers draw..");
-			_gu.Draw(dealersHand, theDeck);
-
-		}*/
 	}
 
 }

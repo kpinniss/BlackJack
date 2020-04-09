@@ -47,6 +47,7 @@ public:
 	{
 		player.Hand.displayHand();
 		_u.print(_u.toStr(player.Hand.getHandValue()));
+		_u.print(player.Name+"'s"+" Total:"+ _u.toStr(player.Hand.getHandValue()));
 	}
 
 	bool playerTurn(Player player)
